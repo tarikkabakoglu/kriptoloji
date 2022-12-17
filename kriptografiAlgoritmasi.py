@@ -1,8 +1,7 @@
 import random
 
 def sifreyicoz():
-	alfabe_2 = ["a", "b", "c", "ç", "d", "e", "f", "g", "ğ", "h", "i", "ı", "j", "k", "l", "m", "n", "o", "ö", "p", "r",
-			  "s", "ş", "t", "u", "ü", "v", "y", "z"]
+	alfabe_2 = ["a", "b", "c", "ç", "d", "e", "f", "g", "ğ", "h", "i", "ı", "j", "k", "l", "m", "n", "o", "ö", "p", "r", "s", "ş", "t", "u", "ü", "v", "y", "z"]
 	l=[]
 	sifre=input("sifreyi girniz: ")
 	for i in sifre:
@@ -18,8 +17,7 @@ def sifreyicoz():
 
 def sifreleme(x):
 	global alfabe
-	alfabe = ["a", "b", "c", "ç", "d", "e", "f", "g", "ğ", "h", "i", "ı", "j", "k", "l", "m", "n", "o", "ö", "p", "r",
-			  "s", "ş", "t", "u", "ü", "v", "y", "z"]
+	alfabe = ["a", "b", "c", "ç", "d", "e", "f", "g", "ğ", "h", "i", "ı", "j", "k", "l", "m", "n", "o", "ö", "p", "r", "s", "ş", "t", "u", "ü", "v", "y", "z"]
 	k = []
 	for i in x:
 		a = alfabe.index(i)
